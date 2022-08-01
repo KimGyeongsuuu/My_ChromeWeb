@@ -1,0 +1,340 @@
+body{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.fa-magnifying-glass{
+    position: relative;
+    top: 14px;
+    left:0;
+}
+.fa-keyboard{
+    position: relative;
+    padding-right: 5px;
+    top:14px;   
+    right:26px;
+}
+.Input .fa-microphone{
+    position: relative;
+    top:14px;
+    right: 11px;
+}
+.headDiv span:nth-child(1){
+    font-size: 88px;
+    color:#4285f4;
+}
+.headDiv span:nth-child(2){
+    font-size: 88px;
+    color:#ea4335;
+}
+.headDiv span:nth-child(3){
+    font-size: 88px;
+    color:#fbbc05;
+}
+.headDiv span:nth-child(4){
+    font-size: 88px;
+    color:#4285f4;  
+}       
+.headDiv span:nth-child(5){
+    font-size: 88px;
+    color:#34a853;
+}
+.headDiv span:nth-child(6){
+    font-size: 88px;
+    color:#ea4335;  
+}
+.headDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:90px;
+    bottom:5px;
+}   
+
+.main .headDiv .Input{
+    width:560px;    
+    height:44px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 8px 0 14px;
+    border-radius: 30px;
+    border: 0.7px solid #beb3b3;
+    position: relative;
+    margin-top: 33px;
+}
+.Input input{
+    font-size: inherit;
+    font-family: inherit;
+    height:80%;
+    position: relative;
+    padding-left: 11px;
+    padding-right: 50px;
+    width: 80%;
+    outline: none;
+    border: 0;
+}
+.rightpage{
+    position: absolute;
+    top:10px;   
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.rightpage .login{
+    background-color: #4d73e0;
+    color:white;
+    padding:9px 23px;
+    margin: 0 8px;
+    border-radius: 6px;
+    width:50px;
+    height:20px;
+    text-align: center;
+}
+.rightpage .gmail{
+    margin-right: 13px;
+}   
+.rightpage .image{
+    margin-right: 13px;
+}
+.leftpage .information a:link{
+    color:black;
+}
+.leftpage .store a:link{  
+    color:black;
+}
+.leftpage .information a:visited{
+    color:black;
+}
+.leftpage .store a:visited{
+color:black;
+}
+.login:hover{
+    opacity: 0.9;
+}
+.login:visited{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.ground .korea{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    color: #727579;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+}
+.ground .under{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+.ground .korea{
+    font-size: 15px;
+}
+.ground .under .left{
+    color: #727579;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    font-size: 15px;
+    position: relative;
+    float: left;
+}   
+.ground .under .right{
+    color: #727579;
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+    font-size: 15px;
+    position: absolute;
+    right:35px;
+}
+.under .left p:nth-child(1){
+    padding-right: 22px;
+}
+.under .left p:nth-child(2){
+    padding-right: 22px;
+}
+.under .right p:nth-child(1){
+    padding-right:22px;
+}
+.under .right p:nth-child(2){
+    padding-right: 22px;
+}
+.ground{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+}
+.login a:visited{
+    color:white;
+}
+.gmail a:visited{
+    color:black;
+}
+.image a:visited{
+    color:black;
+}
+.login a:link{
+    color:white;
+}
+.gmail a:link{
+    color:black;
+}
+.image a:link{
+    color:black;
+}
+.leftpage{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.information{
+    position: relative;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.store{
+    font-size: 14px;
+}
+.leftpage:nth-child(2){
+    color:#202124;
+    position: absolute;
+    left:120px;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.information:hover{
+    text-decoration: underline;
+}
+.store:hover{
+    text-decoration: underline;
+}
+.first:hover{
+    text-decoration: underline;
+}
+.end:hover{
+    text-decoration: underline;
+}
+.first a:link{
+    color:#727579;
+}
+.end a:link{
+    color:#727579;
+}
+.first a:visited{
+    color:#727579;
+}
+.end a:visited{
+    color:#727579;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.select .icon-div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ecf1f4;
+    border-radius: 50px;
+    margin-left: 33px;
+    position: relative;
+    top:20px;
+}
+.icon img{
+    width:30px;
+    height:30px;
+    text-align: center;
+}
+.icon-border .icon .icons{
+    position: relative;
+    top:10px;
+}
+.icon-border{
+    width: 120px;   
+    height:120px;      
+    position: relative;
+}
+.icon-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+.icon-div :nth-child(1):hover{
+    background-color: rgb(247, 247, 247);
+    border-radius: 7px;
+}
+.icon-div :nth-child(2):hover{
+    background-color: rgb(247, 247, 247);
+    border-radius: 7px;
+}
+.icon-div :nth-child(3):hover{
+    background-color: rgb(247, 247, 247);
+    border-radius: 7px;
+}
+.icon-div :nth-child(4):hover{
+    background-color: rgb(247, 247, 247);
+    border-radius: 7px;
+}
+.icon-div .icon .icon-name:hover{
+    background-color: #ecf1f4;
+}
+/*
+.icon-div .icon :nth-child(2):hover{
+    background-color: #ecf1f4;
+    border-radius: 50px;
+}
+.icon-div .icon :nth-child(3):hover{
+    background-color: #ecf1f4;
+    border-radius: 50px;
+}
+.icon-div .icon :nth-child(4):hover{
+    background-color: #ecf1f4;
+    border-radius: 50px;
+}
+*/
+.select .icon-div .icon-border .icon p{
+    font-size: 15px;
+    position: absolute; 
+    margin-top: 22px;
+}
+
+
+
+
+
+
